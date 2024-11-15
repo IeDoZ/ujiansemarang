@@ -1,0 +1,188 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEMARANGAN an</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="logo"
+            >SEMARANG<span style="color: red">an</span></a
+          >
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#top_pariwisata">Pariwisata</a></li>
+            <li><a href="#top_kuliner">Kuliner</a></li>
+            <li><a href="#pesan">Pesan</a></li>
+            <li style="padding-right: 90px"></li>
+          </ul>
+          <div class="tombol">
+            <img
+              src="777.jpeg"
+              alt="Menu"
+              id="hamburger-menu"
+            />
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="home-content">
+        <h1>Welcome to SEMARANG<span style="color: red">an</span></h1>
+        <p>Temukan tempat, makanan, dan budaya terbaik</p>
+      </div>
+    </section>
+
+    <section id="top_pariwisata">
+      <h2>PARIWISATA</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="rrr.jpeg" alt="dusunsemilir" />
+          <p>Dusun Semilir</p>
+        </div>
+        <div class="card">
+          <img src="111.jpeg" alt="marina" />
+          <p>Pantai Marina</p>
+        </div>
+        <div class="card">
+          <img src="222.jpeg" alt="majt" />
+          <p>Masjid Agung Jateng</p>
+        </div>
+        <div class="card">
+          <img src="333.jpeg" alt="kotalama" />
+          <p>Kota Lama</p>
+        </div>
+        <div class="card">
+          <img src="555.jpeg" alt="lawangsewu" />
+          <p>Lawang Sewu</p>
+        </div>
+        <div class="card">
+          <img src="444.jpeg" alt="sampokong" />
+          <p>Klenteng SampoKong</p>
+        </div>
+        <div class="card">
+          <img src="kkk.jpeg" alt="semawis" />
+          <p>Pasar Semawis</p>
+        </div>
+        <div class="card">
+          <img src="yyy.jpeg" alt="gedungsongo" />
+          <p>Candi Gedung Songo</p>
+        </div>
+        <div class="card">
+          <img src="ppp.jpeg" alt="ronggowarsito" />
+          <p>Museum Ronggowarsito</p>
+        </div>
+        <div class="card">
+          <img src="iii.jpeg" alt="cimory" />
+          <p>Cimory The Valley</p>
+        </div>
+
+
+
+        <!-- <div class="card">
+          <img src="" alt="" />
+          <p></p>
+        </div>
+        <div class="card">
+          <img src="" alt="" />
+          <p></p>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="top_kuliner">
+      <h2>KULINER</h2>
+      <div class="table-container">
+        <table>
+          <tr>
+            <th width="22%">Nama Kuliner</th>
+            <th width="71%">Deskripsi</th>
+            <th width="12%">Harga</th>
+          </tr>
+          <tr>
+            <td>Tahu Gimbal</td>
+            <td>
+              Tahu Gimbal yang berisi Tahu, saos kacang, gimbal serta tauge yang khas semarangan.
+            </td>
+            <td>Rp 25.000</td>
+          </tr>
+          <tr>
+            <td>Lunpia Semarang</td>
+            <td>
+              Jajanan Khas semarang yang terbuat dari rebung, telur, udang dan dilapisi oleh kulit Lunpia.
+            </td>
+            <td>Rp 20.000</td>
+          </tr>
+          <tr>
+            <td>Wingko babat</td>
+            <td>
+              Kue khas Semarang yang terbuat dari tepung terigu, gula serta bahan lain nya.
+            </td>
+            <td>Rp 10.000</td>
+          </tr>
+          <tr>
+            <td>Roti Ganjel Rel</td>
+            <td>Roti Khas Semarang yang lezat dan enak terbuat dari tepung terigu dan bahan lainnya.</td>
+            <td>Rp 15.000</td>
+          </tr>
+          <tr>
+            <td>Bandeng Presto</td>
+            <td>
+              Makanan Olahan bandeng yang terdiri dari ikan bandeng yang di presto sehingga menghasilkan daging yang lembut tanpa duri.
+            </td>
+            <td>Rp 22.000</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="pesan">
+      <h2>Pesan Sekarang</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="contact">Kontak:</label>
+          <input type="text" id="contact" name="contact" required />
+        </div>
+        <div class="form-group">
+          <label for="order-type">Pesanan:</label>
+          <select id="order-type" name="order-type" required>
+            <option value="" disabled selected>Pilih Pesanan</option>
+            <optgroup label="Pariwisata">
+              <option value="pantai_karang_sembung">Lawang Sewu</option>
+              <option value="keraton_kasepuhan">Sampokong</option>
+              <option value="cirebon_waterland">Masjid Agung</option>
+              <option value="bukit_gronggong">Pantai Marina</option>
+              <option value="bukit_gronggong">Dusun Semilir</option>
+              <option value="bukit_gronggong">Kota Lama</option>
+              <option value="bukit_gronggong">Pasar Semawis</option>
+              <option value="bukit_gronggong">Gedung Songo</option>
+              <option value="bukit_gronggong">Museum Ronggowarsito</option>
+              <option value="bukit_gronggong">Cimory The Valley</option>
+            </optgroup>
+            <optgroup label="Kuliner">
+              <option value="empal_gentong">Bandeng Presto</option>
+              <option value="nasi_jamblang">Tahu Gimbal</option>
+              <option value="tahu_gejrot">Roti Ganjel Rel</option>
+              <option value="sate_kalong">Wingko Babat</option>
+            </optgroup>
+          </select>
+        </div>
+        <button type="submit">Pesan</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 SMKN 9 SEMARANG | topek </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
